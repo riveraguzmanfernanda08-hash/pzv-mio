@@ -1,0 +1,79 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define FILAS 5
+#define COLUMNAS 9
+
+#define ANCHO_CELDA 80
+#define ALTO_CELDA 90
+#define ALTO_MENU 100
+
+#define ANCHO_JARDIN (COLUMNAS * ANCHO_CELDA)
+#define ALTO_JARDIN (FILAS * ALTO_CELDA)
+
+#define ZOMBI_NORMAL 0
+#define ZOMBI_FLAG 1
+#define ZOMBI_SIN_CABEZA 2
+
+#define VIDA_ZOMBI_NORMAL 325
+#define DANO_ZOMBI_NORMAL 50
+#define VELOCIDAD_ZOMBI_NORMAL 17
+
+#define VIDA_ZOMBI_FLAG 325
+#define DANO_ZOMBI_FLAG 75
+#define VELOCIDAD_ZOMBI_FLAG 25
+
+#define VIDA_ZOMBI_SIN_CABEZA 600
+#define DANO_ZOMBI_SIN_CABEZA 100
+#define VELOCIDAD_ZOMBI_SIN_CABEZA 9
+
+
+
+#define TIPO_GUISANTE 0
+#define TIPO_GIRASOL 1
+#define TIPO_NUEZ 2
+#define TIPO_CACTUS 3
+
+
+#define VIDA_GUISANTE 300
+#define DANO_GUISANTE 20
+#define COSTO_GUISANTE 100
+#define PRODUCCION_GUISANTE 0
+#define COOLDOWN_GUISANTE 1.5
+
+#define VIDA_GIRASOL 300
+#define DANO_GIRASOL 0
+#define COSTO_GIRASOL 50
+#define COOLDOWN_GIRASOL 10.0
+
+#define VIDA_NUEZ 4000
+#define DANO_NUEZ 0
+#define COSTO_NUEZ 50
+
+
+#define VIDA_CACTUS 250
+#define DANO_CACTUS 25
+#define COSTO_CACTUS 125
+#define COOLDOWN_CACTUS 1.5
+
+#define RADIO_SOL 18
+#define COOLDOWN_SOL 8.0
+
+
+#define ZOMBIS_POR_OLEADA 5
+#define TIEMPO_ENTRE_ZOMBIS 3.0
+#define TIEMPO_ENTRE_OLEADAS 5.0
+#define MAX_OLEADAS 5
+
+#define ANCHO_IMG_CASA  100                              
+#define ANCHO_CARRIL    80                               
+#define ANCHO_CASA   (ANCHO_IMG_CASA + ANCHO_CARRIL)  
+
+#define ALTO_CORTACESPED   55
+#define X_INI_CORTACESPED  (-72)   
+#define VEL_CORTACESPED    450
+
+#endif
+
+
+
